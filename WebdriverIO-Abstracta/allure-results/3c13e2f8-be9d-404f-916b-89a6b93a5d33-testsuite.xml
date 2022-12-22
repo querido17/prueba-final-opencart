@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669244401642' stop='1669244407953'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1669244401643' status='passed' stop='1669244405118'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669244403930' status='passed' stop='1669244403930'>
+                    <name>Buscar artículo: iPhone</name>
+                    <title>Buscar artículo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244403998' status='passed' stop='1669244403998'>
+                    <name>Enviar: iPhone a elemento</name>
+                    <title>Enviar: iPhone a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244404924' status='passed' stop='1669244404924'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244405016' status='passed' stop='1669244405016'>
+                    <name>Obtener texto del resultado de la búsqueda</name>
+                    <title>Obtener texto del resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669244405118' status='passed' stop='1669244406582'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669244405517' status='passed' stop='1669244405517'>
+                    <name>Buscar artículo: Canon EOS 5D</name>
+                    <title>Buscar artículo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244405560' status='passed' stop='1669244405560'>
+                    <name>Enviar: Canon EOS 5D a elemento</name>
+                    <title>Enviar: Canon EOS 5D a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244406446' status='passed' stop='1669244406446'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244406494' status='passed' stop='1669244406494'>
+                    <name>Obtener texto del resultado de la búsqueda</name>
+                    <title>Obtener texto del resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669244406582' status='passed' stop='1669244407952'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669244406961' status='passed' stop='1669244406961'>
+                    <name>Buscar artículo: MacBook</name>
+                    <title>Buscar artículo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244407013' status='passed' stop='1669244407013'>
+                    <name>Enviar: MacBook a elemento</name>
+                    <title>Enviar: MacBook a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244407837' status='passed' stop='1669244407838'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244407882' status='passed' stop='1669244407882'>
+                    <name>Obtener texto del resultado de la búsqueda</name>
+                    <title>Obtener texto del resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

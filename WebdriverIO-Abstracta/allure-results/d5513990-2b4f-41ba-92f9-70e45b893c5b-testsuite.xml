@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669249635124' stop='1669249645565'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1669249635125' status='passed' stop='1669249645564'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669249637419' status='passed' stop='1669249637419'>
+                    <name>Buscar artículo: apple cinema</name>
+                    <title>Buscar artículo: apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249637481' status='passed' stop='1669249637481'>
+                    <name>Enviar: apple cinema a elemento</name>
+                    <title>Enviar: apple cinema a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249638374' status='passed' stop='1669249638374'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249638439' status='passed' stop='1669249638439'>
+                    <name>Obtener texto del resultado de la búsqueda</name>
+                    <title>Obtener texto del resultado de la búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249638534' status='passed' stop='1669249638534'>
+                    <name>Ingresar al resultado</name>
+                    <title>Ingresar al resultado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249638534' status='passed' stop='1669249638534'>
+                    <name>Esperar a que un elemento sea clickeable y hacer click</name>
+                    <title>Esperar a que un elemento sea clickeable y hacer click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669249640375' status='passed' stop='1669249640376'>
+                    <name>Seleccionar color</name>
+                    <title>Seleccionar color</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

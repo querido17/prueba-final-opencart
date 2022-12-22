@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"apple cinema\"}\n  (Session info: chrome=107.0.5304.107)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00D5ACD3+2075859]\n\tOrdinal0 [0x00CEEE61+1633889]\n\tOrdinal0 [0x00BEB7BD+571325]\n\tOrdinal0 [0x00C1AC2F+764975]\n\tOrdinal0 [0x00C1AE1B+765467]\n\tOrdinal0 [0x00C4D0F2+970994]\n\tOrdinal0 [0x00C37364+881508]\n\tOrdinal0 [0x00C4B56A+963946]\n\tOrdinal0 [0x00C37136+880950]\n\tOrdinal0 [0x00C0FEFD+720637]\n\tOrdinal0 [0x00C10F3F+724799]\n\tGetHandleVerifier [0x0100EED2+2769538]\n\tGetHandleVerifier [0x01000D95+2711877]\n\tGetHandleVerifier [0x00DEA03A+521194]\n\tGetHandleVerifier [0x00DE8DA0+516432]\n\tOrdinal0 [0x00CF682C+1665068]\n\tOrdinal0 [0x00CFB128+1683752]\n\tOrdinal0 [0x00CFB215+1683989]\n\tOrdinal0 [0x00D06484+1729668]\n\tBaseThreadInitThunk [0x755D62C4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x77300FD9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x77300FA4+1028]\n"
+}

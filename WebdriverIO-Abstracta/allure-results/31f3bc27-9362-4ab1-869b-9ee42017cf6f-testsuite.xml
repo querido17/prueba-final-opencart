@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668786475884' stop='1668786535907'>
+    <name>The Internet</name>
+    <title>The Internet</title>
+    <test-cases>
+        <test-case start='1668786475885' status='broken' stop='1668786535905'>
+            <name>Debería subir un archivo al navegador</name>
+            <title>Debería subir un archivo al navegador</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668786475892' status='passed' stop='1668786477776'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bdc2e702-1339-49b6-8637-186b1a3aa581-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668786477780' status='passed' stop='1668786477820'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6fc3288a-dc69-4eb9-9593-809411f501ba-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='1f9992a4-1a68-42fa-9e4c-812d246c0d95-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "The Internet Debería subir un archivo al navegador" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\opencart.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "The Internet Debería subir un archivo al navegador" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\opencart.test.js)
+                    at createTimeoutError (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

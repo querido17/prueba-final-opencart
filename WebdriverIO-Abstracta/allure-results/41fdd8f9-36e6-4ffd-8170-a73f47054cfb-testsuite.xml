@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669244204713' stop='1669244208001'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1669244204713' status='broken' stop='1669244208000'>
+            <name>Debería buscar undefined</name>
+            <title>Debería buscar undefined</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669244207244' status='passed' stop='1669244207244'>
+                    <name>Buscar artículo: undefined</name>
+                    <title>Buscar artículo: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669244207330' status='passed' stop='1669244207330'>
+                    <name>Enviar: undefined a elemento</name>
+                    <title>Enviar: undefined a elemento</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b0752350-a10d-4df8-8d9d-d62ca825f644-attachment.png' type='image/png' size='161699'/>
+            </attachments>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriverio\build\commands\browser\keys.js:45:15)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.vaciarCampoYEnviarTexto (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\pages\/base.page.js:37:8)
+                    at HomePage.buscar (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\pages\/home.page.js:17:8)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\/opencart.test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

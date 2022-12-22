@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668787604790' stop='1668787607157'>
+    <name>The Internet</name>
+    <title>The Internet</title>
+    <test-cases>
+        <test-case start='1668787604791' status='broken' stop='1668787607156'>
+            <name>Debería subir un archivo al navegador</name>
+            <title>Debería subir un archivo al navegador</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1668787604795' status='passed' stop='1668787606739'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='96ed2029-3743-477e-ae46-79131f3795c2-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668787606744' status='passed' stop='1668787606796'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f779ac02-f649-4726-8616-7bb7216d7512-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='c1fc9af5-d57c-4068-8e7a-a280630939cb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1668787606812' status='passed' stop='1668787606880'>
+                    <name>POST /session/:sessionId/element/c33747db-4ffe-4475-952f-64f3003e24f4/clear</name>
+                    <title>POST /session/:sessionId/element/c33747db-4ffe-4475-952f-64f3003e24f4/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1668787606890' status='broken' stop='1668787607155'>
+                    <name>POST /session/:sessionId/element/c33747db-4ffe-4475-952f-64f3003e24f4/value</name>
+                    <title>POST /session/:sessionId/element/c33747db-4ffe-4475-952f-64f3003e24f4/value</title>
+                    <attachments>
+                        <attachment title='Request' source='a2fe1df7-ff8a-4963-aa52-429a4728b909-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps>
+                        <step start='1668787607029' status='passed' stop='1668787607154'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='e278dc14-0d25-41c8-ac27-06eb86c79aa6-attachment.png' type='image/png' size='26473'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid argument: File not found : C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\subir.png
+                  (Session info: chrome=107.0.5304.107)</message>
+                <stack-trace>invalid argument: invalid argument: File not found : C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\subir.png
+                  (Session info: chrome=107.0.5304.107)
+                    at getErrorFromResponseBody (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Desktop\upCamp\WebdriverIO-Abstracta\tests\/opencart.test.js:62:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
