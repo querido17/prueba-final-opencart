@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "./option[. = \"apple cinema\"]|./option[normalize-space(text()) = \"apple cinema\"]|./optgroup/option[. = \"apple cinema\"]|./optgroup/option[normalize-space(text()) = \"apple cinema\"]"
-}
