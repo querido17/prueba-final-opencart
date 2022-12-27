@@ -4,11 +4,10 @@ import BasePage from '../pages/base.page';
 
 class ShoppingCartPage extends BasePage {
     //WebElements
-    // get addToCartBtn(){ return $('#button-cart') }
+    get addToCartBtn() {return $('#button-cart') }
 
     async agregarAlCarrito(){
-        let addToCartBtn = await $('#button-cart');
-        await addToCartBtn.click();
+        await super.clickearElemento(this.addToCartBtn);
     }
  }
  export default new ShoppingCartPage();

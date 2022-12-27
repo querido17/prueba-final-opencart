@@ -1,6 +1,6 @@
 import homePage from '../pages/home.page';
 import busquedaPage from '../pages/busqueda.page';
-import ShoppingCartPage from '../pages/shoppingCart.page';
+import shoppingCartPage from '../pages/shoppingCart.page';
 
 
 
@@ -11,8 +11,7 @@ describe('OpenCart', () => {
         await homePage.abrir('/');
         let articulo = 'iphone';
         await homePage.buscar(articulo);
-        
-        expect(await $('h4').getText()).to.include.string('iPhone','Error: no se mostró el header esperado');
+        await busquedaPage.ingresarAlResultado();
 
         // Hago click en el artículo
         let iphone = await $('*=iPhone');
