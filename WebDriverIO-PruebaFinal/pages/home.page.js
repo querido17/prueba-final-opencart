@@ -3,7 +3,10 @@ import BasePage from '../pages/base.page';
 class HomePage extends BasePage {
 
    //WebElements
-   get barraDeBusqueda(){ return $('[name="search"]') }
+   get barraDeBusqueda(){ return $('[name="search"]') };
+   get myAccountCmb(){ return $('a[title="My Account"]') };
+   get cmbOptRegister() {return $('//a[contains(text(), "Register")]') };
+   get homeTtl() {return $('#logo') };
 
 
    //-------------------------------------------------------------------------------------------------------//
@@ -22,6 +25,15 @@ class HomePage extends BasePage {
     */
    async obtenerTextoBusqueda() {
        return await this.barraDeBusqueda.getValue();
+   }
+
+   async entrarAlRegister() {
+        await super.clickearElemento(this.myAccountCmb);
+        await super.clickearElemento(this.cmbOptRegister);
+   }
+
+   async getHomeTitle() {
+        return await this.homeTtl.getText();
    }
 
 
