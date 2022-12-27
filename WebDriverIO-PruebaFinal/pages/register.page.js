@@ -10,7 +10,7 @@ class RegisterPage extends BasePage {
     get passwordConfTxtBox(){ return $('#input-confirm') };
     get privacyPolicyChk(){ return $('input[type="checkbox"]') };
     get continueBtn(){ return $('input[type="submit"]') };
-    get registerContainer(){ return $('account-register') };
+    get registerContainer(){ return $('#account-register') };
 
     //-------------------------------------------------------------------------------------------------------//
 
