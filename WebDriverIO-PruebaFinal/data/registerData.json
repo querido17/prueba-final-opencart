@@ -1,0 +1,11 @@
+{ 
+    "DATA": {
+
+        "firstName": "testfirstname",
+        "lastName": "testlastname",
+        "email": "testaccount@testmail.com",
+        "telephone": "0123456789",
+        "password": "testpassword"
+
+    }
+}

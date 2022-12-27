@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672165248618' stop='1672165255133'>
+    <name>OpenCart Register</name>
+    <title>OpenCart Register</title>
+    <test-cases>
+        <test-case start='1672165248619' status='broken' stop='1672165255131'>
+            <name>[CP07] Debería registrar al usuario al ingresar datos válidos</name>
+            <title>[CP07] Debería registrar al usuario al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672165248625' status='passed' stop='1672165251905'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='45927126-aa75-48c0-92e7-824224005203-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165251909' status='passed' stop='1672165251955'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e97950cd-2759-49de-a737-ca84d55942b5-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='8584eb33-fb0f-49ab-898d-65f837c02d0d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165251965' status='passed' stop='1672165252011'>
+                    <name>GET /session/:sessionId/element/05774e1f-4478-4aa3-abad-0409832ad8ad/text</name>
+                    <title>GET /session/:sessionId/element/05774e1f-4478-4aa3-abad-0409832ad8ad/text</title>
+                    <attachments>
+                        <attachment title='Response' source='3076a1ec-055c-4043-bd5c-15f32c234081-attachment.json' type='application/json' size='12'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252012' status='passed' stop='1672165252044'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5da44244-2b3b-4148-be3b-f773eb700064-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='317c3517-11c2-4f85-bffa-d9a56943ffe7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252051' status='passed' stop='1672165252084'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='a95e8b8f-aef6-44fa-b256-5d81d661029c-attachment.json' type='application/json' size='8338'/>
+                        <attachment title='Response' source='c51ce9c1-734d-4360-a6ad-4da914d93a45-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252085' status='passed' stop='1672165252120'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='00988e99-138f-41f1-bdbe-b81dd5565f92-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='7e30b917-b8ea-476c-ad06-0c6ad4b7935e-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252121' status='passed' stop='1672165252199'>
+                    <name>POST /session/:sessionId/element/1e404112-029c-4663-b9c7-c49a020da1e8/click</name>
+                    <title>POST /session/:sessionId/element/1e404112-029c-4663-b9c7-c49a020da1e8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672165252199' status='passed' stop='1672165252258'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5d8ae634-ed17-4c33-9965-86ced72effcc-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='885f6c75-bccc-435a-89bf-1fc4338f109a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252264' status='passed' stop='1672165252307'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='1f11124f-49ea-408a-ad4c-5cd846030751-attachment.json' type='application/json' size='8338'/>
+                        <attachment title='Response' source='5e615358-86ea-4941-9948-1de88e880ce7-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252307' status='passed' stop='1672165252352'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='5db394a6-957e-4dd6-9972-33433f1e3402-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='ebdf780e-f082-4353-b415-08f5b2f58351-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165252354' status='passed' stop='1672165254862'>
+                    <name>POST /session/:sessionId/element/eb6e4f05-50ce-468a-ab34-a38f2109f2c8/click</name>
+                    <title>POST /session/:sessionId/element/eb6e4f05-50ce-468a-ab34-a38f2109f2c8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672165254863' status='passed' stop='1672165254900'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d9b92bcd-5085-469b-b947-77e527603e86-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='0aba5d1a-976f-4b82-9a55-42b6f9a9c49b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165254904' status='passed' stop='1672165254936'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='26d524eb-a09f-458b-aa49-a6b623cf3fa6-attachment.json' type='application/json' size='8338'/>
+                        <attachment title='Response' source='ecaaa917-8902-481c-b0ca-4e47a2e88674-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165254937' status='passed' stop='1672165254965'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='72e5e6b1-4afc-49ce-bc44-c15d34c58533-attachment.json' type='application/json' size='762'/>
+                        <attachment title='Response' source='2ea31d8e-a834-4f9a-8f85-32746237036c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1672165254983' status='passed' stop='1672165255129'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9744a7b1-86de-4375-887e-3e7fd9a83bf8-attachment.png' type='image/png' size='73576'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>addStep is not defined</message>
+                <stack-trace>ReferenceError: addStep is not defined
+                    at RegisterPage.completeFirstName (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\WebDriverIO-PruebaFinal\pages\/register.page.js:22:10)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\WebDriverIO-PruebaFinal\tests\/register.test.js:18:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
