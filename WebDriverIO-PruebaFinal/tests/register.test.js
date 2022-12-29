@@ -4,6 +4,8 @@ import homePage from '../pages/home.page';
 import busquedaPage from '../pages/busqueda.page';
 import registerPage from '../pages/register.page';
 import { DATA } from '../data/registerData.json';
+import UtilitiesMethods from "../utils/utilitiesMethods";
+import utilitiesMethods from "../utils/utilitiesMethods";
 
 describe('OpenCart Register', () => {
 
@@ -17,7 +19,8 @@ describe('OpenCart Register', () => {
         // Completar los campos
         await registerPage.completeFirstName(DATA.firstName);
         await registerPage.completeLastName(DATA.lastName);
-        await registerPage.completeEmail(DATA.email);
+        const randomEmail = await utilitiesMethods.makeid(10) + '@testmail.com';
+        await registerPage.completeEmail(`${randomEmail}`);
         await registerPage.completeTelephone(DATA.telephone);
         await registerPage.completePassword(DATA.password);
         await registerPage.confirmPassword(DATA.password);
@@ -47,6 +50,7 @@ describe('OpenCart Register', () => {
         // Aceptar Privacy Policy y confirmar el registro
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
+        expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se registró el usuario').to.be.true;
 
         await browser.pause(5000);
     });
