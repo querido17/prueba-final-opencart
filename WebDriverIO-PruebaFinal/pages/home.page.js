@@ -35,7 +35,11 @@ class HomePage extends BasePage {
    async getHomeTitle() {
         return await this.homeTtl.getText();
    }
-
+   
+   async returnHome(){
+      addStep('Return to Home Page');
+      await super.clickearElemento(this.homeTtl);
+   }
 
 }
 export default new HomePage();

@@ -12,6 +12,7 @@ class RegisterPage extends BasePage {
     get continueBtn(){ return $('input[type="submit"]') };
     get registerContainer(){ return $('#account-register') };
     get successMessage(){ return $('#content') };
+    get logOutBtn(){ return $('//div/a[contains(text(), "Logout")]')};
 
     //-------------------------------------------------------------------------------------------------------//
 
@@ -73,6 +74,11 @@ class RegisterPage extends BasePage {
      async confirmRegistry(){
           addStep('Confirm Registry');
           await super.clickearElemento(this.continueBtn);
+     }
+
+     async logOut(){
+          addStep('Logout');
+          await super.clickearElemento(this.logOutBtn);
      }
  
  }

@@ -29,10 +29,18 @@ describe('OpenCart Register', () => {
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
 
+        expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se registró el usuario').to.be.true;
+
+        // Vuelvo al estado inicial cerrando sesión
+        await registerPage.logOut();
+        //expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se cerró sesión').to.be.true;
+        await homePage.returnHome();
+        //assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
+        
         await browser.pause(5000);
     });
 
-    it('[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario', async () => { 
+    /* it('[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario', async () => { 
         // Ingreso a la pantalla register
         await homePage.abrir('/');
         assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
@@ -50,7 +58,6 @@ describe('OpenCart Register', () => {
         // Aceptar Privacy Policy y confirmar el registro
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
-        expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se registró el usuario').to.be.true;
 
         await browser.pause(5000);
     });
@@ -74,5 +81,5 @@ describe('OpenCart Register', () => {
         await registerPage.confirmRegistry();
 
         await browser.pause(5000);
-    });
+    }); */
   });
