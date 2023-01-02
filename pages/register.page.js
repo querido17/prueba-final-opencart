@@ -19,47 +19,42 @@ class RegisterPage extends BasePage {
     //-------------------------------------------------------------------------------------------------------//
 
     /**
-     * Escribe el primer nombre en el campo First Name
      * @param {String} firstName que se usará
      */
     async completeFirstName(firstName){
-         addStep(`Complete First Name: ${firstName}`);
+         addStep(`Complete First Name with: ${firstName}`);
          await super.vaciarCampoYEnviarTexto(await this.firstNameTxtBox, firstName);
     }
 
     /**
-     * Escribe el apellido en el campo Last Name
      * @param {String} lastName que se usará
      */
     async completeLastName(lastName){
-         addStep(`Complete Last Name: ${lastName}`);
+         addStep(`Complete Last Name with: ${lastName}`);
          await super.vaciarCampoYEnviarTexto(await this.lastNameTxtBox, lastName);
     }
 
     /**
-     * Escribe el email en el campo E-mail
      * @param {String} email que se usará
      */
      async completeEmail(email){
-          addStep(`Complete E-Mail: ${email}`);
+          addStep(`Complete E-Mail with: ${email}`);
           await super.vaciarCampoYEnviarTexto(await this.emailTxtBox, email);
      }
 
     /**
-     * Escribe el email en el campo E-mail
      * @param {String} telephone que se usará
      */
      async completeTelephone(telephone){
-          addStep(`Complete Telephone: ${telephone}`);
+          addStep(`Complete Telephone with: ${telephone}`);
           await super.vaciarCampoYEnviarTexto(await this.telephoneTxtBox, telephone);
      }
 
     /**
-     * Escribe el email en el campo E-mail
      * @param {String} password que se usará
      */
      async completePassword(password){
-          addStep(`Complete Passsword: ${password}`);
+          addStep(`Complete Passsword with: ${password}`);
           await super.vaciarCampoYEnviarTexto(await this.passwordTxtBox, password);
      }
 
