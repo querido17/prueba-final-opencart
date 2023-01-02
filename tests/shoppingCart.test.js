@@ -4,7 +4,7 @@ import shoppingCartPage from '../pages/shoppingCart.page';
 
 
 
-describe('OpenCart', () => {
+describe('OpenCart Shopping Cart', () => {
 
     it('Debería buscar iphone, ingresar al artículo y agregarlo al carrito de Compras', async () => { 
         // Busco el artículo
