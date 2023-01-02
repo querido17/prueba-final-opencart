@@ -19,6 +19,7 @@
     "@wdio/selenium-standalone-service": "^7.26.0",
     "@wdio/spec-reporter": "^7.26.0",
     "chai": "^4.3.7",
-    "chai-webdriverio": "^1.0.0"
+    "chai-webdriverio": "^1.0.0",
+    "wdio-image-comparison-service": "^5.0.2"
   }
 }

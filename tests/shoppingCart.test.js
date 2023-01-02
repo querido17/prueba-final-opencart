@@ -1,3 +1,5 @@
+import { assert } from 'chai';
+import { expect } from 'chai';
 import homePage from '../pages/home.page';
 import busquedaPage from '../pages/busqueda.page';
 import shoppingCartPage from '../pages/shoppingCart.page';
