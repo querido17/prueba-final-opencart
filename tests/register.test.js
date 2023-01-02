@@ -1,8 +1,9 @@
 import { assert } from 'chai';
 import { expect } from 'chai';
+import { DATA } from '../data/registerData.json';
+
 import homePage from '../pages/home.page';
 import registerPage from '../pages/register.page';
-import { DATA } from '../data/registerData.json';
 import utilitiesMethods from '../utils/utilitiesMethods';
 
 describe('OpenCart Register', () => {

@@ -1,27 +1,23 @@
 import { assert } from 'chai';
 import { expect } from 'chai';
+
+import basePage from '../pages/base.page';
 import homePage from '../pages/home.page';
 import busquedaPage from '../pages/busqueda.page';
 import shoppingCartPage from '../pages/shoppingCart.page';
 
-
+const arrayItems = [homePage.macBook, homePage.macBook, homePage.appleCinema30, homePage.canonEOS5D];
 
 describe('OpenCart Shopping Cart', () => {
 
-    it('Debería buscar iphone, ingresar al artículo y agregarlo al carrito de Compras', async () => { 
-        // Busco el artículo
-        await homePage.abrir('/');
-        let articulo = 'iphone';
-        await homePage.buscar(articulo);
-        await busquedaPage.ingresarAlResultado();
+   arrayItems.forEach(({item}) => {
+     it(`Debería agregar ${item} al carrito de compras`, async () => {
+       await homePage.abrir('/');
+       expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
+       await basePage.clickearElemento(item);
 
-        // Hago click en el artículo
-        let iphone = await $('*=iPhone');
-        await iphone.click();
-        
-        // Agrego al carrito de compras
-        await shoppingCartPage.agregarAlCarrito();
-
-        await browser.pause(5000);
-    });
-  });
+       //await expect(await homePage.obtenerTextoBusqueda()).to.equal(articulo);
+       //await expect(await busquedaPage.obtenerNombreResultado()).to.equal(articulo);
+     });
+   });
+ });
