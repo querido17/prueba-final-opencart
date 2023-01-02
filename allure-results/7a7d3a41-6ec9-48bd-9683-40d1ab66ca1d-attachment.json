@@ -1,0 +1,194 @@
+{
+  "actions": [
+    {
+      "type": "key",
+      "id": "keyboard",
+      "actions": [
+        {
+          "type": "keyDown",
+          "value": "z"
+        },
+        {
+          "type": "keyDown",
+          "value": "0"
+        },
+        {
+          "type": "keyDown",
+          "value": "X"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "3"
+        },
+        {
+          "type": "keyDown",
+          "value": "7"
+        },
+        {
+          "type": "keyDown",
+          "value": "I"
+        },
+        {
+          "type": "keyDown",
+          "value": "J"
+        },
+        {
+          "type": "keyDown",
+          "value": "O"
+        },
+        {
+          "type": "keyDown",
+          "value": "A"
+        },
+        {
+          "type": "keyDown",
+          "value": "@"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "e"
+        },
+        {
+          "type": "keyDown",
+          "value": "s"
+        },
+        {
+          "type": "keyDown",
+          "value": "t"
+        },
+        {
+          "type": "keyDown",
+          "value": "m"
+        },
+        {
+          "type": "keyDown",
+          "value": "a"
+        },
+        {
+          "type": "keyDown",
+          "value": "i"
+        },
+        {
+          "type": "keyDown",
+          "value": "l"
+        },
+        {
+          "type": "keyDown",
+          "value": "."
+        },
+        {
+          "type": "keyDown",
+          "value": "c"
+        },
+        {
+          "type": "keyDown",
+          "value": "o"
+        },
+        {
+          "type": "keyDown",
+          "value": "m"
+        },
+        {
+          "type": "keyUp",
+          "value": "z"
+        },
+        {
+          "type": "keyUp",
+          "value": "0"
+        },
+        {
+          "type": "keyUp",
+          "value": "X"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "3"
+        },
+        {
+          "type": "keyUp",
+          "value": "7"
+        },
+        {
+          "type": "keyUp",
+          "value": "I"
+        },
+        {
+          "type": "keyUp",
+          "value": "J"
+        },
+        {
+          "type": "keyUp",
+          "value": "O"
+        },
+        {
+          "type": "keyUp",
+          "value": "A"
+        },
+        {
+          "type": "keyUp",
+          "value": "@"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "e"
+        },
+        {
+          "type": "keyUp",
+          "value": "s"
+        },
+        {
+          "type": "keyUp",
+          "value": "t"
+        },
+        {
+          "type": "keyUp",
+          "value": "m"
+        },
+        {
+          "type": "keyUp",
+          "value": "a"
+        },
+        {
+          "type": "keyUp",
+          "value": "i"
+        },
+        {
+          "type": "keyUp",
+          "value": "l"
+        },
+        {
+          "type": "keyUp",
+          "value": "."
+        },
+        {
+          "type": "keyUp",
+          "value": "c"
+        },
+        {
+          "type": "keyUp",
+          "value": "o"
+        },
+        {
+          "type": "keyUp",
+          "value": "m"
+        }
+      ]
+    }
+  ]
+}

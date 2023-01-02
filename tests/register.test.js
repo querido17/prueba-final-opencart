@@ -11,7 +11,8 @@ describe('OpenCart Register', () => {
     it('[CP07] Debería registrar al usuario al ingresar datos válidos', async () => { 
         // Ingreso a la pantalla register
         await homePage.abrir('/');
-        assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
+        expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
+        //assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
         await homePage.entrarAlRegister();
         expect(await registerPage.registerContainer.isDisplayedInViewport(), 'Error: no se ingresó a Register Page').to.be.true;
 
@@ -28,21 +29,21 @@ describe('OpenCart Register', () => {
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
 
-        expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se registró el usuario').to.be.true;
+        expect(await registerPage.successTab.isDisplayedInViewport(), 'Error: no se registró el usuario').to.be.true;
 
         // Vuelvo al estado inicial cerrando sesión
         await registerPage.logOut();
-        //expect(await registerPage.successMessage.isDisplayedInViewport(), 'Error: no se cerró sesión').to.be.true;
+        expect(await registerPage.logOutTab.isDisplayedInViewport(), 'Error: no se cerró sesión').to.be.true;
         await homePage.returnHome();
-        //assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
+        expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
         
         await browser.pause(5000);
-    });
+    }); 
 
-    /* it('[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario', async () => { 
+    it('[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario', async () => { 
         // Ingreso a la pantalla register
         await homePage.abrir('/');
-        assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
+        expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
         await homePage.entrarAlRegister();
         expect(await registerPage.registerContainer.isDisplayedInViewport(), 'Error: no se ingresó a Register Page').to.be.true;
 
@@ -64,7 +65,7 @@ describe('OpenCart Register', () => {
     it('[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad', async () => { 
         // Ingreso a la pantalla register
         await homePage.abrir('/');
-        assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
+        expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
         await homePage.entrarAlRegister();
         expect(await registerPage.registerContainer.isDisplayedInViewport(), 'Error: no se ingresó a Register Page').to.be.true;
 
@@ -80,5 +81,5 @@ describe('OpenCart Register', () => {
         await registerPage.confirmRegistry();
 
         await browser.pause(5000);
-    }); */
+    });
   });

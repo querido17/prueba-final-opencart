@@ -11,8 +11,9 @@ class RegisterPage extends BasePage {
     get privacyPolicyChk(){ return $('input[type="checkbox"]') };
     get continueBtn(){ return $('input[type="submit"]') };
     get registerContainer(){ return $('#account-register') };
-    get successMessage(){ return $('#content') };
+    get successTab(){ return $('//a[contains(text(), "Success")]') };
     get logOutBtn(){ return $('//div/a[contains(text(), "Logout")]')};
+    get logOutTab(){ return $('//a[contains(text(), "Logout")]') };
 
     //-------------------------------------------------------------------------------------------------------//
 

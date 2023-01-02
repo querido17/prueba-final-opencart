@@ -6,7 +6,8 @@ class HomePage extends BasePage {
    get barraDeBusqueda(){ return $('[name="search"]') };
    get myAccountCmb(){ return $('a[title="My Account"]') };
    get cmbOptRegister() {return $('//a[contains(text(), "Register")]') };
-   get homeTtl() {return $('#logo') };
+   get carrusel() {return $('#slideshow0')};
+   get homeTtl() {return $('//h1/a') };
 
 
    //-------------------------------------------------------------------------------------------------------//
@@ -32,9 +33,9 @@ class HomePage extends BasePage {
         await super.clickearElemento(this.cmbOptRegister);
    }
 
-   async getHomeTitle() {
+   /* async getHomeTitle() {
         return await this.homeTtl.getText();
-   }
+   } */
    
    async returnHome(){
       addStep('Return to Home Page');
