@@ -11,6 +11,7 @@ class BusquedaPage extends BasePage {
     * Click en el resultado de la búsqueda
     */
    async ingresarAlResultado() {
+       addStep('Ingresar al resultado de la búsqueda');
        await super.clickearElemento(this.resultado);
    }
 
@@ -18,6 +19,7 @@ class BusquedaPage extends BasePage {
     * Obtener texto del resultado de la búsqueda
     */
    async obtenerNombreResultado() {
+       addStep('Obtener texto del resultado de la búsqueda');
        return await this.resultado.getText();
    }
 
