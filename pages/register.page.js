@@ -23,7 +23,7 @@ class RegisterPage extends BasePage {
      * @param {String} firstName que se usará
      */
     async completeFirstName(firstName){
-         addStep('Complete First Name');
+         addStep(`Complete First Name: ${firstName}`);
          await super.vaciarCampoYEnviarTexto(await this.firstNameTxtBox, firstName);
     }
 
@@ -32,7 +32,7 @@ class RegisterPage extends BasePage {
      * @param {String} lastName que se usará
      */
     async completeLastName(lastName){
-         addStep('Complete Last Name');
+         addStep(`Complete Last Name: ${lastName}`);
          await super.vaciarCampoYEnviarTexto(await this.lastNameTxtBox, lastName);
     }
 
@@ -41,7 +41,7 @@ class RegisterPage extends BasePage {
      * @param {String} email que se usará
      */
      async completeEmail(email){
-          addStep('Complete E-Mail');
+          addStep(`Complete E-Mail: ${email}`);
           await super.vaciarCampoYEnviarTexto(await this.emailTxtBox, email);
      }
 
@@ -50,7 +50,7 @@ class RegisterPage extends BasePage {
      * @param {String} telephone que se usará
      */
      async completeTelephone(telephone){
-          addStep('Complete Telephone');
+          addStep(`Complete Telephone: ${telephone}`);
           await super.vaciarCampoYEnviarTexto(await this.telephoneTxtBox, telephone);
      }
 
@@ -59,7 +59,7 @@ class RegisterPage extends BasePage {
      * @param {String} password que se usará
      */
      async completePassword(password){
-          addStep('Complete Password');
+          addStep(`Complete Passsword: ${password}`);
           await super.vaciarCampoYEnviarTexto(await this.passwordTxtBox, password);
      }
 

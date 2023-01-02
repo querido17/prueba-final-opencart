@@ -8,7 +8,7 @@ export default class BasePage {
     * @param {String} ruta a la cual acceder
     */
    async abrir(ruta) {
-       addStep(`Abrir página con ruta: ${ruta}`);
+       addStep(`Abrir página OpenCart`);
        await browser.url(`${ruta}`);
    }
 
@@ -18,7 +18,6 @@ export default class BasePage {
     * @param {Object} elemento a clickear
     */
    async clickearElemento(elemento) {
-       addStep(`Clickear elemento`);
        await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
        await elemento.click();
    }
@@ -30,7 +29,6 @@ export default class BasePage {
     * @param {String} texto a envíar 
     */
    async vaciarCampoYEnviarTexto(elemento, texto){
-       addStep(`Enviar "${texto}" a: ${elemento}`);
        await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
        await elemento.clearValue();
        await elemento.click();
