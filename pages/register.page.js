@@ -10,10 +10,11 @@ class RegisterPage extends BasePage {
     get passwordConfTxtBox(){ return $('#input-confirm') };
     get privacyPolicyChk(){ return $('input[type="checkbox"]') };
     get continueBtn(){ return $('input[type="submit"]') };
-    get registerContainer(){ return $('#account-register') };
+    get registerForm(){ return $('#account-register') };
     get successTab(){ return $('//a[contains(text(), "Success")]') };
     get logOutBtn(){ return $('//div/a[contains(text(), "Logout")]')};
     get logOutTab(){ return $('//a[contains(text(), "Logout")]') };
+    get warningMsg() {return $('div[class="alert alert-danger alert-dismissible"]')};
 
     //-------------------------------------------------------------------------------------------------------//
 
