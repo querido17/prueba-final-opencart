@@ -48,7 +48,8 @@ describe('OpenCart Register', () => {
 
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
-        expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
+        assert.equal(await registerPage.getWarningMsg, 'Warning: E-Mail Address is already registered!', 'Error: debería mostrarse mensaje de error correpondiente');
+        //expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
 
         await homePage.returnHome();
         expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
@@ -69,7 +70,8 @@ describe('OpenCart Register', () => {
         await registerPage.confirmPassword(DATA.password);
 
         await registerPage.confirmRegistry();
-        expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
+        assert.equal(await registerPage.getWarningMsg, 'Warning: You must agree to the Privacy Policy!', 'Error: debería mostrarse mensaje de error correpondiente');
+        // expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
 
         await homePage.returnHome();
         expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;

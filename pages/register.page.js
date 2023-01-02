@@ -77,6 +77,10 @@ class RegisterPage extends BasePage {
           addStep('Logout');
           await super.clickearElemento(this.logOutBtn);
      }
+
+     async getWarningMsg() {
+          return await this.warningMsg.getText();
+     } 
  
  }
  export default new RegisterPage();
