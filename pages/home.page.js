@@ -17,6 +17,7 @@ class HomePage extends BasePage {
     * @param {String} articulo que se buscará
     */
    async buscar(articulo) {
+       addStep(`Buscar artículo: ${articulo}`);
        await super.vaciarCampoYEnviarTexto(await this.barraDeBusqueda, articulo);
        await this.barraDeBusqueda.keys('Enter');
    }
@@ -25,10 +26,12 @@ class HomePage extends BasePage {
     * Obtener texto de la barra de búsqueda
     */
    async obtenerTextoBusqueda() {
+       addStep('Obtener texto de la barra de búsqueda');
        return await this.barraDeBusqueda.getValue();
    }
 
    async entrarAlRegister() {
+        addStep('Go to Register Page');
         await super.clickearElemento(this.myAccountCmb);
         await super.clickearElemento(this.cmbOptRegister);
    }
