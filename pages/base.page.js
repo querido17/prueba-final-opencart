@@ -18,7 +18,7 @@ export default class BasePage {
     * @param {Object} elemento a clickear
     */
    async clickearElemento(elemento) {
-       addStep(`Clickear elemento: ${elemento}`);
+       addStep(`Clickear elemento`);
        await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
        await elemento.click();
    }

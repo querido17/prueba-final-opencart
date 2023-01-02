@@ -1,0 +1,358 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672625937325' stop='1672625955876'>
+    <name>OpenCart Register</name>
+    <title>OpenCart Register</title>
+    <test-cases>
+        <test-case start='1672625937325' status='passed' stop='1672625947314'>
+            <name>[CP07] Debería registrar al usuario al ingresar datos válidos</name>
+            <title>[CP07] Debería registrar al usuario al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625937329' status='passed' stop='1672625937329'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625939841' status='passed' stop='1672625939841'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625942526' status='passed' stop='1672625942526'>
+                    <name>Complete First Name</name>
+                    <title>Complete First Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625942564' status='passed' stop='1672625942564'>
+                    <name>Enviar "testfirstname" a: [object Object]</name>
+                    <title>Enviar "testfirstname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625942877' status='passed' stop='1672625942877'>
+                    <name>Complete Last Name</name>
+                    <title>Complete Last Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625942923' status='passed' stop='1672625942923'>
+                    <name>Enviar "testlastname" a: [object Object]</name>
+                    <title>Enviar "testlastname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943147' status='passed' stop='1672625943147'>
+                    <name>Complete E-Mail</name>
+                    <title>Complete E-Mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943181' status='passed' stop='1672625943181'>
+                    <name>Enviar "Zql6hEJAFj@testmail.com" a: [object Object]</name>
+                    <title>Enviar "Zql6hEJAFj@testmail.com" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943439' status='passed' stop='1672625943439'>
+                    <name>Complete Telephone</name>
+                    <title>Complete Telephone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943474' status='passed' stop='1672625943474'>
+                    <name>Enviar "0123456789" a: [object Object]</name>
+                    <title>Enviar "0123456789" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943704' status='passed' stop='1672625943704'>
+                    <name>Complete Password</name>
+                    <title>Complete Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943746' status='passed' stop='1672625943746'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625943957' status='passed' stop='1672625943957'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625944001' status='passed' stop='1672625944001'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625944238' status='passed' stop='1672625944238'>
+                    <name>Agree to the Privacy Policy</name>
+                    <title>Agree to the Privacy Policy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625944378' status='passed' stop='1672625944378'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625945672' status='passed' stop='1672625945672'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625946557' status='passed' stop='1672625946557'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672625947317' status='passed' stop='1672625951725'>
+            <name>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</name>
+            <title>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625947318' status='passed' stop='1672625947318'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625947892' status='passed' stop='1672625947892'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625948772' status='passed' stop='1672625948772'>
+                    <name>Complete First Name</name>
+                    <title>Complete First Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625948797' status='passed' stop='1672625948797'>
+                    <name>Enviar "testfirstname" a: [object Object]</name>
+                    <title>Enviar "testfirstname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949045' status='passed' stop='1672625949045'>
+                    <name>Complete Last Name</name>
+                    <title>Complete Last Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949089' status='passed' stop='1672625949089'>
+                    <name>Enviar "testlastname" a: [object Object]</name>
+                    <title>Enviar "testlastname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949322' status='passed' stop='1672625949322'>
+                    <name>Complete E-Mail</name>
+                    <title>Complete E-Mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949347' status='passed' stop='1672625949347'>
+                    <name>Enviar "testaccount@testmail.com" a: [object Object]</name>
+                    <title>Enviar "testaccount@testmail.com" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949647' status='passed' stop='1672625949647'>
+                    <name>Complete Telephone</name>
+                    <title>Complete Telephone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949675' status='passed' stop='1672625949675'>
+                    <name>Enviar "0123456789" a: [object Object]</name>
+                    <title>Enviar "0123456789" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949894' status='passed' stop='1672625949894'>
+                    <name>Complete Password</name>
+                    <title>Complete Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625949929' status='passed' stop='1672625949929'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625950156' status='passed' stop='1672625950156'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625950183' status='passed' stop='1672625950183'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625950364' status='passed' stop='1672625950364'>
+                    <name>Agree to the Privacy Policy</name>
+                    <title>Agree to the Privacy Policy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625950482' status='passed' stop='1672625950482'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625951033' status='passed' stop='1672625951033'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672625951725' status='passed' stop='1672625955875'>
+            <name>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</name>
+            <title>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625951726' status='passed' stop='1672625951726'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625952187' status='passed' stop='1672625952187'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625952997' status='passed' stop='1672625952997'>
+                    <name>Complete First Name</name>
+                    <title>Complete First Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953027' status='passed' stop='1672625953027'>
+                    <name>Enviar "testfirstname" a: [object Object]</name>
+                    <title>Enviar "testfirstname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953310' status='passed' stop='1672625953310'>
+                    <name>Complete Last Name</name>
+                    <title>Complete Last Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953336' status='passed' stop='1672625953336'>
+                    <name>Enviar "testlastname" a: [object Object]</name>
+                    <title>Enviar "testlastname" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953543' status='passed' stop='1672625953543'>
+                    <name>Complete E-Mail</name>
+                    <title>Complete E-Mail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953579' status='passed' stop='1672625953579'>
+                    <name>Enviar "yksiws1Hix@testmail.com" a: [object Object]</name>
+                    <title>Enviar "yksiws1Hix@testmail.com" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953827' status='passed' stop='1672625953827'>
+                    <name>Complete Telephone</name>
+                    <title>Complete Telephone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625953861' status='passed' stop='1672625953861'>
+                    <name>Enviar "0123456789" a: [object Object]</name>
+                    <title>Enviar "0123456789" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625954088' status='passed' stop='1672625954088'>
+                    <name>Complete Password</name>
+                    <title>Complete Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625954115' status='passed' stop='1672625954115'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625954312' status='passed' stop='1672625954312'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625954333' status='passed' stop='1672625954333'>
+                    <name>Enviar "testpassword" a: [object Object]</name>
+                    <title>Enviar "testpassword" a: [object Object]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625954591' status='passed' stop='1672625954591'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625955162' status='passed' stop='1672625955162'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

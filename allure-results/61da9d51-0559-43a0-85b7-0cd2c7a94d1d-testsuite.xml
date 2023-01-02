@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672625506485' stop='1672625511116'>
+    <name>OpenCart Register</name>
+    <title>OpenCart Register</title>
+    <test-cases>
+        <test-case start='1672625506485' status='broken' stop='1672625509563'>
+            <name>[CP07] Debería registrar al usuario al ingresar datos válidos</name>
+            <title>[CP07] Debería registrar al usuario al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625506488' status='passed' stop='1672625506488'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625509274' status='passed' stop='1672625509274'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b8c63d85-388c-4120-a6f4-d6aeca73c6b7-attachment.png' type='image/png' size='161655'/>
+            </attachments>
+            <failure>
+                <message>Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at HomePage.clickearElemento (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/base.page.js:21:38)
+                    at HomePage.entrarAlRegister (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/home.page.js:35:21)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/register.test.js:15:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672625509564' status='broken' stop='1672625510328'>
+            <name>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</name>
+            <title>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625509564' status='passed' stop='1672625509564'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625510071' status='passed' stop='1672625510071'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0865ea7e-4013-40b9-8dd0-d6acf5286eaf-attachment.png' type='image/png' size='161656'/>
+            </attachments>
+            <failure>
+                <message>Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at HomePage.clickearElemento (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/base.page.js:21:38)
+                    at HomePage.entrarAlRegister (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/home.page.js:35:21)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/register.test.js:44:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672625510328' status='broken' stop='1672625511115'>
+            <name>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</name>
+            <title>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672625510329' status='passed' stop='1672625510329'>
+                    <name>Abrir página con ruta: /</name>
+                    <title>Abrir página con ruta: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672625510820' status='passed' stop='1672625510820'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e0f781f1-202c-42a3-a262-b23c7f0efad9-attachment.png' type='image/png' size='161624'/>
+            </attachments>
+            <failure>
+                <message>Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at HomePage.clickearElemento (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/base.page.js:21:38)
+                    at HomePage.entrarAlRegister (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/home.page.js:35:21)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/register.test.js:70:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
