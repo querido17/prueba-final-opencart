@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672843621054' stop='1672843625510'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1672843621055' status='failed' stop='1672843625474'>
+            <name>Debería agregar iPhone y MacBook al carrito de compras</name>
+            <title>Debería agregar iPhone y MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672843621058' status='passed' stop='1672843621058'>
+                    <name>Abrir página OpenCart</name>
+                    <title>Abrir página OpenCart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672843625226' status='passed' stop='1672843625226'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='424b1cb2-0e81-42c3-b0ed-5932062286d8-attachment.png' type='image/png' size='160677'/>
+            </attachments>
+            <failure>
+                <message>Error: no se ingresó a la pantalla de inicio: expected Promise{&lt;pending>} to be true      
+                      actual expected
+                      
+                      Promise [Promise] {}true
+                      </message>
+                <stack-trace>AssertionError: Error: no se ingresó a la pantalla de inicio: expected Promise{&lt;pending>} to be true
+                    at forEach (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:20:116)
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:17:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
