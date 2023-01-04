@@ -11,7 +11,6 @@ describe('OpenCart Register', () => {
     it('[CP07] Debería registrar al usuario al ingresar datos válidos', async () => { 
         await homePage.abrir('/');
         expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
-        //assert.equal(await homePage.getHomeTitle(), 'Your Store', 'Error: no se ingresó a la pantalla de inicio');
         await homePage.entrarAlRegister();
         expect(await registerPage.registerForm.isDisplayedInViewport(), 'Error: no se ingresó a Register Page').to.be.true;
 
@@ -48,8 +47,7 @@ describe('OpenCart Register', () => {
 
         await registerPage.acceptPrivacyPolicy();
         await registerPage.confirmRegistry();
-        assert.equal(await registerPage.getWarningMsg, 'Warning: E-Mail Address is already registered!', 'Error: debería mostrarse mensaje de error correpondiente');
-        //expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
+        assert.equal(await registerPage.getWarningMsg(), 'Warning: E-Mail Address is already registered!', 'Error: debería mostrarse mensaje de error correpondiente');
 
         await homePage.returnHome();
         expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
@@ -70,8 +68,7 @@ describe('OpenCart Register', () => {
         await registerPage.confirmPassword(DATA.password);
 
         await registerPage.confirmRegistry();
-        assert.equal(await registerPage.getWarningMsg, 'Warning: You must agree to the Privacy Policy!', 'Error: debería mostrarse mensaje de error correpondiente');
-        // expect(await registerPage.warningMsg.isDisplayedInViewport(), 'Error: debería mostrarse mensaje de error correpondiente').to.be.true;
+        assert.equal(await registerPage.getWarningMsg(), 'Warning: You must agree to the Privacy Policy!', 'Error: debería mostrarse mensaje de error correpondiente');
 
         await homePage.returnHome();
         expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;

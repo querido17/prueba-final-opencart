@@ -8,7 +8,8 @@ class ShoppingCartPage extends BasePage {
 
     //-------------------------------------------------------------------------------------------------------//
 
-    async agregarAlCarrito(){
+    async addToCart(){
+        addStep('Add to cart');
         await super.clickearElemento(this.addToCartBtn);
     }
  }

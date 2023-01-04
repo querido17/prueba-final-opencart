@@ -79,7 +79,7 @@ class RegisterPage extends BasePage {
      }
 
      async getWarningMsg() {
-          return await this.warningMsg.getText();
+          return await (await this.warningMsg).getText();
      } 
  
  }
