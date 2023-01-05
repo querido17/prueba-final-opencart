@@ -38,10 +38,6 @@ class HomePage extends BasePage {
         await super.clickearElemento(this.cmbOptLogin);
    }
 
-   /* async getHomeTitle() {
-        return await this.homeTtl.getText();
-   } */
-   
    async returnHome(){
       addStep('Return to Home Page');
       await super.clickearElemento(this.homeTtl);

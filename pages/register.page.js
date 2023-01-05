@@ -14,7 +14,7 @@ class RegisterPage extends BasePage {
     get successTab(){ return $('//a[contains(text(), "Success")]') };
     get logOutBtn(){ return $('//div/a[contains(text(), "Logout")]')};
     get logOutTab(){ return $('//a[contains(text(), "Logout")]') };
-    get warningMsg() {return $('div[class="alert alert-danger alert-dismissible"]')};
+    get warningMsg() {return $('.alert-danger')};
 
     //-------------------------------------------------------------------------------------------------------//
 
