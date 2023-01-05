@@ -4,7 +4,8 @@ import BasePage from '../pages/base.page';
 
 class ShoppingCartPage extends BasePage {
     //WebElements
-    get addToCartBtn() {return $('#button-cart') }
+    get addToCartBtn() {return $('#button-cart') };
+    get successMsg() {return $('.alert-success')};
 
     //-------------------------------------------------------------------------------------------------------//
 
@@ -12,6 +13,10 @@ class ShoppingCartPage extends BasePage {
         addStep('Add to cart');
         await super.clickearElemento(this.addToCartBtn);
     }
+
+    /* async getSuccessMsg() {
+        return await (await this.successMsg).getText();
+    } */
  }
  export default new ShoppingCartPage();
  
