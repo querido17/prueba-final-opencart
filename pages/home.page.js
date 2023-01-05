@@ -5,13 +5,10 @@ class HomePage extends BasePage {
    //WebElements
    get barraDeBusqueda(){ return $('[name="search"]') };
    get myAccountCmb(){ return $('a[title="My Account"]') };
-   get cmbOptRegister() {return $('//a[contains(text(), "Login")]') };
-   get cmbOptLogin() {return $()};
+   get cmbOptRegister() {return $('//a[contains(text(), "Register")]') };
+   get cmbOptLogin() {return $('//a[contains(text(), "Login")]')};
    get carrusel() {return $('#slideshow0')};
    get homeTtl() {return $('//h1/a') };
-   get macBook() {return $('img[title="MacBook"]')};
-   get iPhone() {return $('img[title="iPhone"]')};
-
 
    //-------------------------------------------------------------------------------------------------------//
 
@@ -48,6 +45,16 @@ class HomePage extends BasePage {
    async returnHome(){
       addStep('Return to Home Page');
       await super.clickearElemento(this.homeTtl);
+   }
+
+   /**
+     * @param {String} articulo nombre del producto
+     * @returns Selector
+     */
+   async getProduct(articulo){
+     addStep('Devuelve selector del artículo del block "Featured" acorde al nombre');
+     const producto = await $(`img[title="${articulo}"]`);
+     return producto;
    }
 
 }
