@@ -5,7 +5,8 @@ class HomePage extends BasePage {
    //WebElements
    get barraDeBusqueda(){ return $('[name="search"]') };
    get myAccountCmb(){ return $('a[title="My Account"]') };
-   get cmbOptRegister() {return $('//a[contains(text(), "Register")]') };
+   get cmbOptRegister() {return $('//a[contains(text(), "Login")]') };
+   get cmbOptLogin() {return $()};
    get carrusel() {return $('#slideshow0')};
    get homeTtl() {return $('//h1/a') };
    get macBook() {return $('img[title="MacBook"]')};
@@ -32,6 +33,12 @@ class HomePage extends BasePage {
         addStep('Go to Register Page');
         await super.clickearElemento(this.myAccountCmb);
         await super.clickearElemento(this.cmbOptRegister);
+   }
+
+   async entrarAlLogin() {
+        addStep('Go to Login Page');
+        await super.clickearElemento(this.myAccountCmb);
+        await super.clickearElemento(this.cmbOptLogin);
    }
 
    /* async getHomeTitle() {

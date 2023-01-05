@@ -1,0 +1,16 @@
+{ 
+    "DATA-Valid": {
+        "userOne": {
+            "email": "testaccount@testmail.com",
+            "password": "testpassword"
+        },
+        "userTwo": {
+            "email": "testaccount2@testmail.com",
+            "password": "testpassword2"
+        },
+        "userThree": {
+            "email": "testaccount3@testmail.com",
+            "password": "testpassword3"
+        }
+    }
+}
