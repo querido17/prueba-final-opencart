@@ -23,7 +23,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './tests/**/login.test.js'
+        './tests/**/shoppingCart.test.js'
     ],
     // Patterns to exclude.
     exclude: [

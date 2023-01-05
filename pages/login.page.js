@@ -20,7 +20,7 @@ class LoginPage extends BasePage {
     async completeEMail(email){
         addStep(`Complete E-Mail Address with: ${email}`);
         await super.vaciarCampoYEnviarTexto(await this.emailTxtBox, email);
-   }
+     }
 
    /**
     * @param {String} password que se usará
@@ -28,19 +28,19 @@ class LoginPage extends BasePage {
    async completePassword(password){
         addStep(`Complete password with: ${password}`);
         await super.vaciarCampoYEnviarTexto(await this.passwordTxtBox, password);
-   }
+     }
 
    async confirmLogin(){
         addStep('Confirm Login');
         await super.clickearElemento(this.loginBtn);
-   }
+     }
 
    async logOut(){
         addStep('Logout');
         await super.clickearElemento(this.logOutBtn);
-   }
+     }
 
    async getWarningMsg() {
-          return await (await this.warningMsg).getText();
-   }
+        return await (await this.warningMsg).getText();
+     }
 }
