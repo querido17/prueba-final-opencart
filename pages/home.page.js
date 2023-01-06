@@ -9,6 +9,9 @@ class HomePage extends BasePage {
    get cmbOptLogin() {return $('//a[contains(text(), "Login")]')};
    get carrusel() {return $('#slideshow0')};
    get homeTtl() {return $('//h1/a') };
+   get cartBtn() {return $('#cart')};
+   get cartTbl() {return $('.table-bordered')};
+   get cartTotal() {return $('#cart-total')};
 
    //-------------------------------------------------------------------------------------------------------//
 
@@ -52,6 +55,15 @@ class HomePage extends BasePage {
      const producto = await $(`img[title="${articulo}"]`);
      return producto;
    }
+
+   async viewCart(){
+     addStep('View Shopping Cart');
+     await super.clickearElemento(this.cartBtn);
+   }
+
+   async getCartTotal() {
+    return await (await this.cartTotal).getText();
+  } 
 
 }
 export default new HomePage();

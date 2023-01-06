@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673029071119' stop='1673029087947'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673029071119' status='failed' stop='1673029077776'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673029074825' status='passed' stop='1673029074825'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673029076615' status='passed' stop='1673029076615'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673029076698' status='passed' stop='1673029076698'>
+                    <name>Add to cart</name>
+                    <title>Add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ce110ff6-d653-49a2-8012-e59f9628aea1-attachment.png' type='image/png' size='111272'/>
+            </attachments>
+            <failure>
+                <message>Error: debería mostrarse mensaje de éxito: expected 'Success: You have added MacBook to yo…' to equal 'Success: You have added MacBook to yo…'      
+                      actual expected
+                      
+                      'Success: You have added MacBook to your shoppingShopping cart!\n×Cart'
+                      </message>
+                <stack-trace>AssertionError: Error: debería mostrarse mensaje de éxito: expected 'Success: You have added MacBook to yo…' to equal 'Success: You have added MacBook to yo…'
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:22:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673029077776' status='broken' stop='1673029087945'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673029077776' status='passed' stop='1673029077776'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f92a1c1f-7d9a-46e5-a21c-06180673cbf2-attachment.png' type='image/png' size='111272'/>
+            </attachments>
+            <failure>
+                <message>element ("img[title="iPhone"]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("img[title="iPhone"]") still not clickable after 10000ms
+                    at C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.clickearElemento (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\pages\/base.page.js:20:8)
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:18:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

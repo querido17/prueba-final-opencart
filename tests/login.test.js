@@ -15,6 +15,7 @@ describe('OpenCart Login', () => {
     arrayUsers.forEach((user) => {
         it('[CP10] Debería iniciar sesión al ingresar datos válidos', async ()=> {
             await homePage.abrir('/');
+            addStep(`Abrir página OpenCart`);
             expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
             await homePage.entrarAlLogin();
             expect(await loginPage.loginContainer.isDisplayedInViewport(), 'Error: no se ingresó a Login Page').to.be.true;
@@ -34,6 +35,7 @@ describe('OpenCart Login', () => {
     arrayUsers.forEach((user) => {
         it('[CP11] No debería iniciar sesión al no ingresar contraseña', async ()=> {
             await homePage.abrir('/');
+            addStep(`Abrir página OpenCart`);
             expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
             await homePage.entrarAlLogin();
             expect(await loginPage.loginContainer.isDisplayedInViewport(), 'Error: no se ingresó a Login Page').to.be.true;

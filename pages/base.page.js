@@ -8,7 +8,6 @@ export default class BasePage {
     * @param {String} ruta a la cual acceder
     */
    async abrir(ruta) {
-       addStep(`Abrir página OpenCart`);
        await browser.url(`${ruta}`);
    }
 

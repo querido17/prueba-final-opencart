@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673033511250' stop='1673033523005'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673033511251' status='failed' stop='1673033518456'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras y luego eliminarlo</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras y luego eliminarlo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673033514081' status='passed' stop='1673033514081'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033515744' status='passed' stop='1673033515744'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033515841' status='passed' stop='1673033515841'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033516678' status='passed' stop='1673033516678'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033517258' status='passed' stop='1673033517258'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033517497' status='passed' stop='1673033517497'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8cb8c693-0fa3-487f-b944-a4d338ebea8c-attachment.png' type='image/png' size='160677'/>
+            </attachments>
+            <failure>
+                <message>Error: El total debería ser de $0.00: expected '0 item(s) - $0.00' to equal ' 0 item(s) - $0.00'      
+                      actual expected
+                      
+                      ' 0 item(s) - $0.00'
+                      </message>
+                <stack-trace>AssertionError: Error: El total debería ser de $0.00: expected '0 item(s) - $0.00' to equal ' 0 item(s) - $0.00'
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:31:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673033518457' status='failed' stop='1673033523004'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras y luego eliminarlo</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras y luego eliminarlo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673033518457' status='passed' stop='1673033518457'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033520259' status='passed' stop='1673033520259'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033520388' status='passed' stop='1673033520388'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033521255' status='passed' stop='1673033521255'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033521862' status='passed' stop='1673033521862'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673033522103' status='passed' stop='1673033522103'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e9adbdb9-88f2-4a1f-8944-2102cc14d46a-attachment.png' type='image/png' size='160677'/>
+            </attachments>
+            <failure>
+                <message>Error: El total debería ser de $0.00: expected '0 item(s) - $0.00' to equal ' 0 item(s) - $0.00'      
+                      actual expected
+                      
+                      ' 0 item(s) - $0.00'
+                      </message>
+                <stack-trace>AssertionError: Error: El total debería ser de $0.00: expected '0 item(s) - $0.00' to equal ' 0 item(s) - $0.00'
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:31:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

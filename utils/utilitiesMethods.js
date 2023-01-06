@@ -14,5 +14,15 @@ class UtilitiesMethods {
         }
         return result;
     }
+
+    /**
+     * Remove last 3 characters of a string
+     * @param {String} message
+     * @returns the message without the last 3 characters
+     */
+    async cutString(message){
+        let str = message.slice(0, -2);
+        return str;
+    }
 }
 export default new UtilitiesMethods();
