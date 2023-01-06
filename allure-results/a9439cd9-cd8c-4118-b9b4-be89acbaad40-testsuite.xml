@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673037894081' stop='1673037901460'>
+    <name>OpenCart Login</name>
+    <title>OpenCart Login</title>
+    <test-cases>
+        <test-case start='1673037894081' status='broken' stop='1673037901459'>
+            <name>[CP10] Debería iniciar sesión al ingresar datos válidos</name>
+            <title>[CP10] Debería iniciar sesión al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673037897408' status='passed' stop='1673037897408'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673037899931' status='passed' stop='1673037899931'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673037900725' status='passed' stop='1673037900725'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='568d4687-34cc-438e-80e7-58694a5f2095-attachment.png' type='image/png' size='81658'/>
+                <attachment title='Screenshot' source='23783d3e-183a-4ebf-b824-cbb3ecd6c4f4-attachment.png' type='image/png' size='81658'/>
+                <attachment title='Screenshot' source='9e4e6947-b0df-49f7-b26f-3e083e65bc65-attachment.png' type='image/png' size='81658'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'isDisplayedInViewport' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDisplayedInViewport' of undefined
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/login.test.js:22:55)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

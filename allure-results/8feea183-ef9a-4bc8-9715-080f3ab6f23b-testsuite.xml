@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673039101517' stop='1673039113471'>
+    <name>OpenCart Login</name>
+    <title>OpenCart Login</title>
+    <test-cases>
+        <test-case start='1673039101517' status='passed' stop='1673039113470'>
+            <name>[CP11] No debería iniciar sesión al no ingresar contraseña</name>
+            <title>[CP11] No debería iniciar sesión al no ingresar contraseña</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673039104759' status='passed' stop='1673039104759'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039107134' status='passed' stop='1673039107134'>
+                    <name>Complete E-Mail Address with: testaccount@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039107469' status='passed' stop='1673039107469'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039108023' status='passed' stop='1673039108023'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039108766' status='passed' stop='1673039108766'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039109568' status='passed' stop='1673039109568'>
+                    <name>Complete E-Mail Address with: testaccount2@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount2@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039109920' status='passed' stop='1673039109920'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039110445' status='passed' stop='1673039110445'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039111136' status='passed' stop='1673039111136'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039111897' status='passed' stop='1673039111897'>
+                    <name>Complete E-Mail Address with: testaccount3@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount3@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039112217' status='passed' stop='1673039112217'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673039112763' status='passed' stop='1673039112763'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

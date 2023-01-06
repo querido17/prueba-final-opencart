@@ -1,5 +1,5 @@
 { 
-    "DATA-Valid": {
+    "DATAValid": {
         "userOne": {
             "email": "testaccount@testmail.com",
             "password": "testpassword"

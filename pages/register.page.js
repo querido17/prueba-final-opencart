@@ -1,6 +1,7 @@
 import BasePage from '../pages/base.page';
 
 class RegisterPage extends BasePage {
+     
     //WebElements
     get firstNameTxtBox(){ return $('#input-firstname') };
     get lastNameTxtBox(){ return $('#input-lastname') };

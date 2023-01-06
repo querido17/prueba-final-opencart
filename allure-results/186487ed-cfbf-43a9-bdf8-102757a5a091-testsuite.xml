@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673038827908' stop='1673038836858'>
+    <name>OpenCart Login</name>
+    <title>OpenCart Login</title>
+    <test-cases>
+        <test-case start='1673038827908' status='broken' stop='1673038836857'>
+            <name>[CP10] Debería iniciar sesión al ingresar datos válidos</name>
+            <title>[CP10] Debería iniciar sesión al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673038831125' status='passed' stop='1673038831125'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038833392' status='passed' stop='1673038833392'>
+                    <name>Complete E-Mail with: testaccount@testmail.com</name>
+                    <title>Complete E-Mail with: testaccount@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038833714' status='passed' stop='1673038833714'>
+                    <name>Complete Passsword with: testpassword</name>
+                    <title>Complete Passsword with: testpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038834217' status='passed' stop='1673038834217'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038834773' status='passed' stop='1673038834773'>
+                    <name>Complete E-Mail with: testaccount2@testmail.com</name>
+                    <title>Complete E-Mail with: testaccount2@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038835160' status='passed' stop='1673038835160'>
+                    <name>Complete Passsword with: testpassword2</name>
+                    <title>Complete Passsword with: testpassword2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038835585' status='passed' stop='1673038835585'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038836118' status='passed' stop='1673038836118'>
+                    <name>Complete E-Mail with: testaccount3@testmail.com</name>
+                    <title>Complete E-Mail with: testaccount3@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673038836411' status='passed' stop='1673038836411'>
+                    <name>Complete Passsword with: testpassword3</name>
+                    <title>Complete Passsword with: testpassword3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4b4945b3-0dea-4662-8242-60b9e80cf75f-attachment.png' type='image/png' size='82400'/>
+                <attachment title='Screenshot' source='0328655a-7ae8-4cf7-b4d5-02619b944fda-attachment.png' type='image/png' size='82557'/>
+                <attachment title='Screenshot' source='81aeb444-aa9d-44f0-a5d6-75b5ece02a5c-attachment.png' type='image/png' size='82573'/>
+            </attachments>
+            <failure>
+                <message>_login.default.confirmLogin is not a function</message>
+                <stack-trace>TypeError: _login.default.confirmLogin is not a function
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/login.test.js:27:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

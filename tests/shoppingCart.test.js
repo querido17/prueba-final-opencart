@@ -15,7 +15,7 @@ describe('OpenCart Shopping Cart', () => {
             await homePage.abrir('/');
             expect(await homePage.carrusel.isDisplayedInViewport(), 'Error: no se ingresó a la pantalla de inicio').to.be.true;
         });
-           it(`[CP05] Debería agregar ${item} al carrito de compras y luego eliminarlo`, async ()=> {
+           it(`[CP05] Debería agregar ${item} al carrito de compras`, async ()=> {
                 await homePage.clickearElemento(await homePage.getProduct(item));
                 expect(await (await homePage.getProduct(item)).isDisplayedInViewport(), `Error: no se ingresó a ${item}`).to.be.true;
                 await shoppingCartPage.addToCart();
