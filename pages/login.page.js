@@ -7,7 +7,6 @@ class LoginPage extends BasePage {
       get passwordTxtBox(){ return $('#input-password') };
       get loginBtn(){ return $('input[value=Login]') };
       get loginContainer(){ return $('#account-login') };
-      // get loginTab(){ return $('//div/ul/li/a[contains(text(), "Login")]') };
       get accountContainer(){return $('#account-account')};
       get logOutBtn(){ return $('//div/a[contains(text(), "Logout")]')};
       get logOutTab(){ return $('//a[contains(text(), "Logout")]') };
