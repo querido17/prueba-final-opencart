@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673307698734' stop='1673307714683'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673307698735' status='passed' stop='1673307709154'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673307702646' status='passed' stop='1673307702646'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307706051' status='passed' stop='1673307706051'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307706136' status='passed' stop='1673307706136'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307707196' status='passed' stop='1673307707196'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307707832' status='passed' stop='1673307707832'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307708053' status='passed' stop='1673307708053'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c54a3e0d-eeb3-4210-b90e-71af8ec4e662-attachment.png' type='image/png' size='162148'/>
+                <attachment title='Screenshot' source='fd58fdf0-e493-4ff2-8d40-ed9052035fff-attachment.png' type='image/png' size='110854'/>
+                <attachment title='Screenshot' source='ef352921-8c4e-4a74-9735-e39b17e0a5e5-attachment.png' type='image/png' size='163104'/>
+            </attachments>
+        </test-case>
+        <test-case start='1673307709154' status='passed' stop='1673307714681'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673307710099' status='passed' stop='1673307710099'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307711782' status='passed' stop='1673307711782'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307711858' status='passed' stop='1673307711858'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307712976' status='passed' stop='1673307712976'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307713527' status='passed' stop='1673307713527'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673307713701' status='passed' stop='1673307713701'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9dc37766-af1c-42d0-b28f-775d5f29fa19-attachment.png' type='image/png' size='163104'/>
+                <attachment title='Screenshot' source='bed98ba5-fcf1-4749-b22f-1e19b65da117-attachment.png' type='image/png' size='129386'/>
+                <attachment title='Screenshot' source='130b553d-86bf-4b4c-9f5d-e013f41724e7-attachment.png' type='image/png' size='163104'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

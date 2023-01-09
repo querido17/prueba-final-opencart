@@ -1,0 +1,250 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673243898329' stop='1673243926015'>
+    <name>OpenCart Register</name>
+    <title>OpenCart Register</title>
+    <test-cases>
+        <test-case start='1673243898330' status='passed' stop='1673243912941'>
+            <name>[CP07] Debería registrar al usuario al ingresar datos válidos</name>
+            <title>[CP07] Debería registrar al usuario al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673243902194' status='passed' stop='1673243902194'>
+                    <name>Abrir página OpenCart</name>
+                    <title>Abrir página OpenCart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243902333' status='passed' stop='1673243902333'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243905777' status='passed' stop='1673243905777'>
+                    <name>Complete First Name with: testfirstname</name>
+                    <title>Complete First Name with: testfirstname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243906284' status='passed' stop='1673243906284'>
+                    <name>Complete Last Name with: testlastname</name>
+                    <title>Complete Last Name with: testlastname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243906709' status='passed' stop='1673243906709'>
+                    <name>Complete E-Mail with: BMgokwQ2S0@testmail.com</name>
+                    <title>Complete E-Mail with: BMgokwQ2S0@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243907220' status='passed' stop='1673243907220'>
+                    <name>Complete Telephone with: 0123456789</name>
+                    <title>Complete Telephone with: 0123456789</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243907726' status='passed' stop='1673243907726'>
+                    <name>Complete Passsword with: testpassword</name>
+                    <title>Complete Passsword with: testpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243908056' status='passed' stop='1673243908056'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243908686' status='passed' stop='1673243908686'>
+                    <name>Agree to the Privacy Policy</name>
+                    <title>Agree to the Privacy Policy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243908954' status='passed' stop='1673243908955'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243910430' status='passed' stop='1673243910430'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243911700' status='passed' stop='1673243911700'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673243912942' status='passed' stop='1673243920231'>
+            <name>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</name>
+            <title>[CP08] No debería registrar al usuario al ingresar E-Mail asociado a otro usuario</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673243913541' status='passed' stop='1673243913541'>
+                    <name>Abrir página OpenCart</name>
+                    <title>Abrir página OpenCart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243913630' status='passed' stop='1673243913630'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243914964' status='passed' stop='1673243914964'>
+                    <name>Complete First Name with: testfirstname</name>
+                    <title>Complete First Name with: testfirstname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243915567' status='passed' stop='1673243915567'>
+                    <name>Complete Last Name with: testlastname</name>
+                    <title>Complete Last Name with: testlastname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243916055' status='passed' stop='1673243916055'>
+                    <name>Complete E-Mail with: testaccount@testmail.com</name>
+                    <title>Complete E-Mail with: testaccount@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243916702' status='passed' stop='1673243916702'>
+                    <name>Complete Telephone with: 0123456789</name>
+                    <title>Complete Telephone with: 0123456789</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243917114' status='passed' stop='1673243917114'>
+                    <name>Complete Passsword with: testpassword</name>
+                    <title>Complete Passsword with: testpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243917718' status='passed' stop='1673243917718'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243918154' status='passed' stop='1673243918154'>
+                    <name>Agree to the Privacy Policy</name>
+                    <title>Agree to the Privacy Policy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243918419' status='passed' stop='1673243918419'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243919223' status='passed' stop='1673243919223'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673243920231' status='passed' stop='1673243926014'>
+            <name>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</name>
+            <title>[CP09] No debería registrar al usuario al ingresar datos válidos pero no aceptar la política de privacidad</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673243920834' status='passed' stop='1673243920834'>
+                    <name>Abrir página OpenCart</name>
+                    <title>Abrir página OpenCart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243920968' status='passed' stop='1673243920968'>
+                    <name>Go to Register Page</name>
+                    <title>Go to Register Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243922167' status='passed' stop='1673243922167'>
+                    <name>Complete First Name with: testfirstname</name>
+                    <title>Complete First Name with: testfirstname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243922527' status='passed' stop='1673243922527'>
+                    <name>Complete Last Name with: testlastname</name>
+                    <title>Complete Last Name with: testlastname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243922919' status='passed' stop='1673243922919'>
+                    <name>Complete E-Mail with: HlDrIydgoB@testmail.com</name>
+                    <title>Complete E-Mail with: HlDrIydgoB@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243923358' status='passed' stop='1673243923358'>
+                    <name>Complete Telephone with: 0123456789</name>
+                    <title>Complete Telephone with: 0123456789</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243923638' status='passed' stop='1673243923639'>
+                    <name>Complete Passsword with: testpassword</name>
+                    <title>Complete Passsword with: testpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243923998' status='passed' stop='1673243923998'>
+                    <name>Confirm Password</name>
+                    <title>Confirm Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243924296' status='passed' stop='1673243924296'>
+                    <name>Confirm Registry</name>
+                    <title>Confirm Registry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673243925037' status='passed' stop='1673243925037'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

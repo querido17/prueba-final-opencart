@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673305784953' stop='1673305795742'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673305784953' status='failed' stop='1673305794477'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673305789223' status='passed' stop='1673305789223'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673305790832' status='passed' stop='1673305790832'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673305790932' status='passed' stop='1673305790932'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673305791762' status='passed' stop='1673305791762'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673305792402' status='passed' stop='1673305792402'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673305792642' status='passed' stop='1673305792642'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='62ef02f5-24d3-4e1f-92d0-9ea3f9327ff8-attachment.png' type='image/png' size='168177'/>
+                <attachment title='Screenshot' source='8a4987f9-d19c-4f57-8ec2-4d9e9b88e84e-attachment.png' type='image/png' size='169107'/>
+                <attachment title='Screenshot' source='f4246c4b-bff8-4cff-aa71-f3105285a65e-attachment.png' type='image/png' size='161421'/>
+            </attachments>
+            <failure>
+                <message>Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0      
+                      actual expected
+                      
+                      53.940
+                      </message>
+                <stack-trace>AssertionError: Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:37:166)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673305794478' status='failed' stop='1673305795741'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ca1c0fec-4c0c-4168-9aaa-70b92315dcb2-attachment.png' type='image/png' size='292955'/>
+                <attachment title='Screenshot' source='2f512fde-c9a0-41d7-9118-ba06ce1fa0bf-attachment.png' type='image/png' size='286091'/>
+            </attachments>
+            <failure>
+                <message>Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0      
+                      actual expected
+                      
+                      53.940
+                      </message>
+                <stack-trace>AssertionError: Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:19:166)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

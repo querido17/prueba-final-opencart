@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673307461328' stop='1673307466489'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673307461328' status='failed' stop='1673307465305'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c88d4ecb-a79a-41eb-9620-97df7ff28769-attachment.png' type='image/png' size='162148'/>
+                <attachment title='Screenshot' source='65c3331f-4685-4f5a-9eaa-624305b523b1-attachment.png' type='image/png' size='160677'/>
+            </attachments>
+            <failure>
+                <message>Error: OpenCart cart total doesn't match original quantity: expected 92.557 to equal +0      
+                      actual expected
+                      
+                      92.5570
+                      </message>
+                <stack-trace>AssertionError: Error: OpenCart cart total doesn't match original quantity: expected 92.557 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:19:164)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673307465306' status='failed' stop='1673307466488'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f4f12a44-82fa-42eb-846c-eddf472f13fd-attachment.png' type='image/png' size='162148'/>
+                <attachment title='Screenshot' source='80927fdb-d03b-4cd3-9421-42205b0cd675-attachment.png' type='image/png' size='160677'/>
+            </attachments>
+            <failure>
+                <message>Error: OpenCart cart total doesn't match original quantity: expected 92.557 to equal +0      
+                      actual expected
+                      
+                      92.5570
+                      </message>
+                <stack-trace>AssertionError: Error: OpenCart cart total doesn't match original quantity: expected 92.557 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:19:164)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(), \"Register\")]\"}\n  (Session info: chrome=108.0.5359.125)",
-  "stacktrace": "Backtrace:\n\t(No symbol) [0x002DF243]\n\t(No symbol) [0x00267FD1]\n\t(No symbol) [0x0015D04D]\n\t(No symbol) [0x0018C0B0]\n\t(No symbol) [0x0018C22B]\n\t(No symbol) [0x001BE612]\n\t(No symbol) [0x001A85D4]\n\t(No symbol) [0x001BC9EB]\n\t(No symbol) [0x001A8386]\n\t(No symbol) [0x0018163C]\n\t(No symbol) [0x0018269D]\n\tGetHandleVerifier [0x00579A22+2655074]\n\tGetHandleVerifier [0x0056CA24+2601828]\n\tGetHandleVerifier [0x00388C0A+619850]\n\tGetHandleVerifier [0x00387830+614768]\n\t(No symbol) [0x002705FC]\n\t(No symbol) [0x00275968]\n\t(No symbol) [0x00275A55]\n\t(No symbol) [0x0028051B]\n\tBaseThreadInitThunk [0x748A62C4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x77D30FD9+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x77D30FA4+1028]\n\t(No symbol) [0x00000000]\n"
-}

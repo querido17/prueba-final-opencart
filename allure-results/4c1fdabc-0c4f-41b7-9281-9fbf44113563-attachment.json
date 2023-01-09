@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[class=\"alert alert-danger alert-dismissible\"]"
-}

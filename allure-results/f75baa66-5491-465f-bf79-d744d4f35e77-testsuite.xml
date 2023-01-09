@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673304788533' stop='1673304798042'>
+    <name>OpenCart Shopping Cart</name>
+    <title>OpenCart Shopping Cart</title>
+    <test-cases>
+        <test-case start='1673304788533' status='broken' stop='1673304796895'>
+            <name>[CP05] Debería agregar MacBook al carrito de compras</name>
+            <title>[CP05] Debería agregar MacBook al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673304792980' status='passed' stop='1673304792980'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673304794634' status='passed' stop='1673304794634'>
+                    <name>Devuelve selector del artículo del block "Featured" acorde al nombre</name>
+                    <title>Devuelve selector del artículo del block "Featured" acorde al nombre</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673304794730' status='passed' stop='1673304794730'>
+                    <name>Add to Shopping Cart</name>
+                    <title>Add to Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673304795532' status='passed' stop='1673304795532'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673304796121' status='passed' stop='1673304796121'>
+                    <name>View Shopping Cart</name>
+                    <title>View Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673304796451' status='passed' stop='1673304796451'>
+                    <name>Remove from Shopping Cart</name>
+                    <title>Remove from Shopping Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='02f68f65-a47e-44b0-b900-4a7777df0bc2-attachment.png' type='image/png' size='168177'/>
+                <attachment title='Screenshot' source='9b7c0606-0022-4c72-8db4-db52cdfa6c03-attachment.png' type='image/png' size='158452'/>
+            </attachments>
+            <failure>
+                <message>The element with selector "#cart-total" you are trying to pass into the execute method wasn't found</message>
+                <stack-trace>Error: The element with selector "#cart-total" you are trying to pass into the execute method wasn't found
+                    at verify (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\utils\index.js:310:23)
+                    at Array.map (&lt;anonymous>)
+                    at verifyArgsAndStripIfElement (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\utils\index.js:319:55)
+                    at Browser.execute (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\webdriverio\build\commands\browser\execute.js:53:79)
+                    at Browser.wrapCommandFn (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\node_modules\@wdio\utils\build\shim.js:137:38)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673304796895' status='failed' stop='1673304798040'>
+            <name>[CP05] Debería agregar iPhone al carrito de compras</name>
+            <title>[CP05] Debería agregar iPhone al carrito de compras</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c0d56886-122b-4e3d-a306-777bd3780829-attachment.png' type='image/png' size='169107'/>
+                <attachment title='Screenshot' source='dbd6a809-d77f-417e-baba-d1ff51168488-attachment.png' type='image/png' size='161268'/>
+            </attachments>
+            <failure>
+                <message>Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0      
+                      actual expected
+                      
+                      53.940
+                      </message>
+                <stack-trace>AssertionError: Error: OpenCart cart total doesn't match original quantity: expected 53.94 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\vgs17carge\Documents\GitHub\prueba-final-opencart\tests\/shoppingCart.test.js:20:166)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,237 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673244133398' stop='1673244165372'>
+    <name>OpenCart Login</name>
+    <title>OpenCart Login</title>
+    <test-cases>
+        <test-case start='1673244133398' status='passed' stop='1673244156269'>
+            <name>[CP10] Debería iniciar sesión al ingresar datos válidos</name>
+            <title>[CP10] Debería iniciar sesión al ingresar datos válidos</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673244137544' status='passed' stop='1673244137544'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244140508' status='passed' stop='1673244140508'>
+                    <name>Complete E-Mail Address with: testaccount@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244141385' status='passed' stop='1673244141385'>
+                    <name>Complete password with: testpassword</name>
+                    <title>Complete password with: testpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244141884' status='passed' stop='1673244141884'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244142908' status='passed' stop='1673244142908'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244144110' status='passed' stop='1673244144110'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244145343' status='passed' stop='1673244145343'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244146673' status='passed' stop='1673244146673'>
+                    <name>Complete E-Mail Address with: testaccount2@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount2@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244147405' status='passed' stop='1673244147405'>
+                    <name>Complete password with: testpassword2</name>
+                    <title>Complete password with: testpassword2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244147848' status='passed' stop='1673244147848'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244148789' status='passed' stop='1673244148789'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244149758' status='passed' stop='1673244149758'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244150820' status='passed' stop='1673244150820'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244152073' status='passed' stop='1673244152073'>
+                    <name>Complete E-Mail Address with: testaccount3@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount3@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244152571' status='passed' stop='1673244152571'>
+                    <name>Complete password with: testpassword3</name>
+                    <title>Complete password with: testpassword3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244153085' status='passed' stop='1673244153085'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244153975' status='passed' stop='1673244153975'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244155020' status='passed' stop='1673244155020'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673244156269' status='passed' stop='1673244165371'>
+            <name>[CP11] No debería iniciar sesión al no ingresar contraseña</name>
+            <title>[CP11] No debería iniciar sesión al no ingresar contraseña</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673244156270' status='passed' stop='1673244156270'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244157669' status='passed' stop='1673244157669'>
+                    <name>Complete E-Mail Address with: testaccount@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244158278' status='passed' stop='1673244158278'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244158986' status='passed' stop='1673244158986'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244160114' status='passed' stop='1673244160114'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244161082' status='passed' stop='1673244161082'>
+                    <name>Complete E-Mail Address with: testaccount2@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount2@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244161563' status='passed' stop='1673244161563'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244162274' status='passed' stop='1673244162274'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244163088' status='passed' stop='1673244163088'>
+                    <name>Go to Login Page</name>
+                    <title>Go to Login Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244163881' status='passed' stop='1673244163881'>
+                    <name>Complete E-Mail Address with: testaccount3@testmail.com</name>
+                    <title>Complete E-Mail Address with: testaccount3@testmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244164156' status='passed' stop='1673244164156'>
+                    <name>Confirm Login</name>
+                    <title>Confirm Login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673244164694' status='passed' stop='1673244164694'>
+                    <name>Return to Home Page</name>
+                    <title>Return to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
