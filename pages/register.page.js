@@ -20,7 +20,7 @@ class RegisterPage extends BasePage {
     //-------------------------------------------------------------------------------------------------------//
 
     /**
-     * @param {String} firstName que se usará
+     * @param {String} firstName
      */
     async completeFirstName(firstName){
          addStep(`Complete First Name with: ${firstName}`);
@@ -28,7 +28,7 @@ class RegisterPage extends BasePage {
     }
 
     /**
-     * @param {String} lastName que se usará
+     * @param {String} lastName
      */
     async completeLastName(lastName){
          addStep(`Complete Last Name with: ${lastName}`);
@@ -36,7 +36,7 @@ class RegisterPage extends BasePage {
     }
 
     /**
-     * @param {String} email que se usará
+     * @param {String} email
      */
      async completeEmail(email){
           addStep(`Complete E-Mail with: ${email}`);
@@ -44,7 +44,7 @@ class RegisterPage extends BasePage {
      }
 
     /**
-     * @param {String} telephone que se usará
+     * @param {String} telephone
      */
      async completeTelephone(telephone){
           addStep(`Complete Telephone with: ${telephone}`);
@@ -52,7 +52,7 @@ class RegisterPage extends BasePage {
      }
 
     /**
-     * @param {String} password que se usará
+     * @param {String} password
      */
      async completePassword(password){
           addStep(`Complete Passsword with: ${password}`);

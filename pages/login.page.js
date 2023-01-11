@@ -17,7 +17,7 @@ class LoginPage extends BasePage {
       //-------------------------------------------------------------------------------------------------------//
 
       /**
-       * @param {String} email que se usará
+       * @param {String} email
        */
       async completeEmail(email){
          addStep(`Complete E-Mail Address with: ${email}`);
@@ -25,7 +25,7 @@ class LoginPage extends BasePage {
       }
 
       /**
-       * @param {String} password que se usará
+       * @param {String} password
        */
       async completePassword(password){
          addStep(`Complete password with: ${password}`);
